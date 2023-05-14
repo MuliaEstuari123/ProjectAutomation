@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SCN_005" time="78.021" tests="1" failures="0" errors="0">
+   <testsuite name="SCN_005" tests="1" failures="0" errors="0" time="78.021" skipped="0" timestamp="2023-05-14 17:06:52" hostname="Mulia Estuari - DESKTOP-C1VBO9R" id="Test Suites/SCN_005">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mulia Estuari\\git\\ProjectAutomation\\Reports\\20230514_170646\\SCN_005\\20230514_170646"/>
+         <property name="logFiles" value="C:\\Users\\Mulia Estuari\\git\\ProjectAutomation\\Reports\\20230514_170646\\SCN_005\\20230514_170646\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Mulia Estuari\\git\\ProjectAutomation\\Reports\\20230514_170646\\SCN_005\\20230514_170646\\1684058879601.png, C:\\Users\\Mulia Estuari\\git\\ProjectAutomation\\Reports\\20230514_170646\\SCN_005\\20230514_170646\\1684058881535.png, C:\\Users\\Mulia Estuari\\git\\ProjectAutomation\\Reports\\20230514_170646\\SCN_005\\20230514_170646\\1684058884085.png, C:\\Users\\Mulia Estuari\\git\\ProjectAutomation\\Reports\\20230514_170646\\SCN_005\\20230514_170646\\1684058886840.png, C:\\Users\\Mulia Estuari\\git\\ProjectAutomation\\Reports\\20230514_170646\\SCN_005\\20230514_170646\\1684058889447.png"/>
+         <property name="hostName" value="Mulia Estuari - DESKTOP-C1VBO9R"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.53.7"/>
+         <property name="sessionId" value="82a938b2563cbd2ed784172d6db4f7c4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SCN_005_TC_001_Web" time="77.424" classname="Test Cases/SCN_005_TC_001_Web" status="PASSED">
+         <system-out><![CDATA[2023-05-14 17:06:53 - [TEST_CASE][PASSED] - Test Cases/SCN_005_TC_001_Web: Test Cases/SCN_005_TC_001_Web
+
+2023-05-14 17:06:54 - [TEST_STEP][PASSED] - email = "estu@gmail.com": null
+
+2023-05-14 17:06:54 - [TEST_STEP][PASSED] - openBrowser("https://www.paper.id/"): Browser is opened with url: 'https://www.paper.id/'
+
+2023-05-14 17:06:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-14 17:06:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-14 17:07:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.paper.id/'
+
+2023-05-14 17:07:52 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Object Repository/Page_Paper.id/btn_LOGIN"))): null
+
+2023-05-14 17:07:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Paper.id/btn_LOGIN' is clickable
+
+2023-05-14 17:07:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paper.id/btn_LOGIN")): Object: 'Object Repository/Page_Paper.id/btn_LOGIN' is clicked on
+
+2023-05-14 17:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paper.id/btn_LOGIN' is clicked on
+
+2023-05-14 17:07:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-14 17:07:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\git\\ProjectAutomation\\Reports\\20230514_170646\\SCN_005\\20230514_170646\\1684058879601.png]]
+
+2023-05-14 17:07:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Paper.id/input_Email"), email): Text 'estu@gmail.com' is set on object 'Object Repository/Page_Paper.id/input_Email'
+
+2023-05-14 17:08:01 - [MESSAGE][PASSED] - Text 'estu@gmail.com' is set on object 'Object Repository/Page_Paper.id/input_Email'
+
+2023-05-14 17:08:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-14 17:08:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\git\\ProjectAutomation\\Reports\\20230514_170646\\SCN_005\\20230514_170646\\1684058881535.png]]
+
+2023-05-14 17:08:01 - [TEST_STEP][PASSED] - for ([i = 0, i < 3, (i++)]): Taking screenshot successfully
+
+2023-05-14 17:08:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paper.id/btn_Selanjutnya")): Object: 'Object Repository/Page_Paper.id/btn_Selanjutnya' is clicked on
+
+2023-05-14 17:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paper.id/btn_Selanjutnya' is clicked on
+
+2023-05-14 17:08:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-14 17:08:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\git\\ProjectAutomation\\Reports\\20230514_170646\\SCN_005\\20230514_170646\\1684058884085.png]]
+
+2023-05-14 17:08:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paper.id/btn_Selanjutnya")): Object: 'Object Repository/Page_Paper.id/btn_Selanjutnya' is clicked on
+
+2023-05-14 17:08:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paper.id/btn_Selanjutnya' is clicked on
+
+2023-05-14 17:08:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-14 17:08:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\git\\ProjectAutomation\\Reports\\20230514_170646\\SCN_005\\20230514_170646\\1684058886840.png]]
+
+2023-05-14 17:08:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paper.id/btn_Selanjutnya")): Object: 'Object Repository/Page_Paper.id/btn_Selanjutnya' is clicked on
+
+2023-05-14 17:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paper.id/btn_Selanjutnya' is clicked on
+
+2023-05-14 17:08:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-14 17:08:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\git\\ProjectAutomation\\Reports\\20230514_170646\\SCN_005\\20230514_170646\\1684058889447.png]]
+
+2023-05-14 17:08:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-14 17:08:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-14 17:06:52 - [TEST_SUITE][PASSED] - SCN_005: Test Cases/SCN_005_TC_001_Web]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
