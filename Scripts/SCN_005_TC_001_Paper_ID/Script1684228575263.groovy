@@ -20,7 +20,6 @@ import org.openqa.selenium.Keys as Keys
 
 
 
-
 String tipe_mitra = 'list'
 
 String No_mitra = 'B202301964908'
@@ -34,13 +33,12 @@ String email = 'Aditya@gmail.com'
 String No_Telpon = ' '
 
 
-
 WebUI.openBrowser('') // open browser atau apps terkait aplikasi mitra tersebut
 
 
-for (int i = 0; i < 3; i++) {
 
-   if (WebUI.verifyElementClickable(findTestObject) { // pertama verify salah satu element untuk validasi object
+
+   if (WebUI.verifyElementClickable(findTestObject)) { // pertama verify salah satu element untuk kondisi validasi object
 	
 	
 	WebUI.selectOptionByValue(('object list option tipe mitra'),tipe_mitra) // memilih opsi list mitra sesuai test data
@@ -55,16 +53,21 @@ for (int i = 0; i < 3; i++) {
 	
 	WebUI.setText(findTestObject('object input No Telpon'),No_Telpon) // input no telpon sesuai test data
 	
-     } else {
+	for (int i = 0; i < 3; i++) { //looping menyimpan data 3 kali 
+		
+		WebUI.click(findTestObject('object button simpan')) // klik button simpan
+		
+	}
+	
+	
+	
+ } else {
 	
 	WS.comment('object tidak di temukan')
 	
    }
 
 
- }
-
-	
 
 WebUI.closeBrowser() // tutup browser atau apps
 
